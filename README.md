@@ -26,7 +26,6 @@ Install [oh-my-zsh](https://ohmyz.sh/) and [Homebrew](https://brew.sh/), then:
 ```
 brew update
 brew install autojump
-brew install jq
 ```
 
 Source:
