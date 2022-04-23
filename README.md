@@ -21,7 +21,7 @@ do
 done
 ```
 
-Install requirements:
+Install [oh-my-zsh](https://ohmyz.sh/) and [Homebrew](https://brew.sh/), then:
 
 ```
 brew update
