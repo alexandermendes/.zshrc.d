@@ -11,3 +11,4 @@ git config --global alias.f "fetch"
 git config --global alias.b "branch"
 
 git config --global alias.pr "!eval ${SRC_GIT_FUNCS} && git_pr"
+git config --global alias.open "!eval ${SRC_GIT_FUNCS} && git_open"
