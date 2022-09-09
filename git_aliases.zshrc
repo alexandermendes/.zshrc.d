@@ -12,3 +12,4 @@ git config --global alias.b "branch"
 
 git config --global alias.pr "!eval ${SRC_GIT_FUNCS} && git_pr"
 git config --global alias.open "!eval ${SRC_GIT_FUNCS} && git_open"
+git config --global alias.recent "for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
