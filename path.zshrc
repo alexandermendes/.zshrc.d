@@ -16,3 +16,6 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
 
 # Oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
+
+# asdf
+export "$HOME/.asdf/bin:$HOME/.asdf/shims:$PATH"
