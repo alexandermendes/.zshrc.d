@@ -22,3 +22,6 @@ export PATH="$HOME/.asdf/bin:$HOME/.asdf/shims:$PATH"
 
 # Yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Homebrew
+export PATH=/opt/homebrew/bin:$PATH
